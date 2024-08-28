@@ -64,10 +64,22 @@
       Replace "usb-Klipper_stm32f103xe_36FFD7054741343816842043-if00" with your board ID
       You can get this ID using KIAUH script menu "4. Advanced" -> "5. Get MCU ID" then use correct port "USB or Canbus"
       ```
+      
+   * [test-tilikum-controller.cfg](./Config%20Files/test-tilikum-controller.cfg) includes all the correct pinout for Tilikum Canbus Controller.
+      ```
+      Don't forget to change your own serial ID in lines 19 and 24
+      Line 19 is related to main controller MCU
+      serial: /dev/serial/by-id/usb-Klipper_stm32f103xe_280018000E0000304E46514E-if00
+      Replace "usb-Klipper_stm32f103xe_280018000E0000304E46514E-if00" with your main board ID
+      You can get this ID using KIAUH script menu "4. Advanced" -> "5. Get MCU ID" then use correct port "USB or Canbus"
+      Line 24 is related to Tilikum controller MCU
+      serial: /dev/serial/by-id/usb-Klipper_stm32f103xe_39FFD70531304D3819621743-if00
+      Replace "usb-Klipper_stm32f103xe_39FFD70531304D3819621743-if00" with your Tilikum controller board ID from KIAUH
+      ```
 
 # Note
 ## We appreciate your participation
-* We appreciate your participation so please inform us if you have any problem or questions.
+* At Orca 3D and AKTronics we appreciate your participation in ordert to make better products for you, so please inform us if you have any problem or questions.
 
 ## Purchase link:
 https://eshop.eca.ir
