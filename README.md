@@ -1,6 +1,6 @@
 # Orca 3D Tilikum NEMA17 Canbus Contoller
 <p align="center">
- [<img src=./images/Tilikum%20Small%20Size.jpg width="600" />](./images/Tilikum%20Full%20Size.png)
+<a href="./images/Tilikum%20Full%20Size.png" _taget="blank"><img src=./images/Tilikum%20Small%20Size.jpg width="600" /></a>
 </p>
 ## Hardware
 * MCU: ARM® 32-bit Cortex®-M3 STM32F103RCT6 72MHz with CAN bus
