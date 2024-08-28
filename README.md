@@ -1,5 +1,7 @@
 # Orca 3D Tilikum NEMA17 Canbus Contoller
- <br/><center>[<img src=./images/Tilikum%20Small%20Size.jpg width="600" />](./images/Tilikum%20Full%20Size.png)</center><br/>
+<p align="center">
+ [<img src=./images/Tilikum%20Small%20Size.jpg width="600" />](./images/Tilikum%20Full%20Size.png)
+</p>
 ## Hardware
 * MCU: ARM® 32-bit Cortex®-M3 STM32F103RCT6 72MHz with CAN bus
 * Stepper Dirver: Onboard TMC2209 in UART mode, UART address: 00, Rsense: 0.1R
@@ -18,8 +20,10 @@
 * Only supports Klipper at the present. Currently Marlin doesn't support multiple MCU controllers...
 
 ## Pinout
-* The following pinout is for thier intended common use but mostly can be used for other things inside Klipper for other purposes.
- <br/><center>[<img src=./images/Tilikum%20Pinout%20Guide%20Small%20Size.jpg width="600" />](./images/Tilikum%20Pinout%20Guide%20Full%20Size.png)</center><br/>
+* The following pinout is for thier normally intended common use but mostly can be used for other things inside Klipper for other purposes.
+<p align="center">
+[<img src=./images/Tilikum%20Pinout%20Guide%20Small%20Size.jpg width="600" />](./images/Tilikum%20Pinout%20Guide%20Full%20Size.png)
+</p>
 
 ## Build Firmware Image
 1. Precompiled firmware(The source code version used is [Commits on Nov 20, 2023](https://github.com/Klipper3d/klipper/commit/bb4711c5d31e8159945f945c662e6668059a174f))
