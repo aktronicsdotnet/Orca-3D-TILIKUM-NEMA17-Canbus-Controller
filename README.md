@@ -1,5 +1,5 @@
 # Orca 3D Tilikum NEMA17 Canbus Contoller
- <center>[<br/><img src=./images/Tilikum%20Small%20Size.jpg width="800" /><br/>](./images/Tilikum%20Full%20Size.png)</center>
+ <br/><center>[<img src=./images/Tilikum%20Small%20Size.jpg width="800" />](./images/Tilikum%20Full%20Size.png)</center><br/>
 ## Hardware
 * MCU: ARM Cortex-M0 STM32F072C8T6 48MHz with CAN bus
 * Stepper Dirver: Onboard TMC2209 in UART mode, UART address: 00, Rsense: 0.11R
