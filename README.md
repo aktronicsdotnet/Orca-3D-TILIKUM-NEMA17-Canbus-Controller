@@ -93,7 +93,7 @@
          * Communication interface = `CAN bus (on PB0/PB1)`
          * `(1000000)` CAN bus speed
 <p align="center">
-<img src=./images/KIAUH Firmware Guide.jpg width="800" />
+<img src=./images/KIAUH%20Firmware%20Guide.jpg width="800" />
 </p>
       
    3. Once the configuration is selected, press `q` to exit,  and "Yes" when  asked to save the configuration.
