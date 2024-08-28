@@ -79,7 +79,7 @@
 
 # Note
 ## We appreciate your participation
-* At Orca 3D and AKTronics we appreciate your participation in ordert to make better products for you, so please inform us if you have any problem or questions.
+* At <a href="https://orca3d.ir" target="_blank">Orca 3D</a> and <a href="https://aktronics.net" target="_blank">AKTronics</a> we appreciate your participation in ordert to make better products for you, so please inform us if you have any problem or questions.
 
 ## Purchase link:
 https://eshop.eca.ir
