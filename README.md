@@ -65,21 +65,9 @@
       You can get this ID using KIAUH script menu "4. Advanced" -> "5. Get MCU ID" then use correct port "USB or Canbus"
       ```
 
-
-
 # Note
-## Here’s BIGTREETECH! For Makers, by makers!
-* We appreciate all of your support to BIGTREETECH! To offer an excellent experience of creation to every makers,We’re devoted to design and produce high-quality and durable accessories!
-
-## How to contact:
-### If you have any technical issue,please don’t hesitate contact us:
-* BIGTREETECH: service004@biqu3d.com
-
-### Follow us on social media to get more news:
-* Facebook: https://www.facebook.com/BIGTREETECH/
-* Twitter: https://twitter.com/BigTreeTech
-* Instagram: https://www.instagram.com/bigtreetech_official/
-* Official Site: https://bigtree-tech.com/
+## We appreciate your participation
+* We appreciate your participation so please inform us if you have any problem or questions.
 
 ## Purchase link:
-https://www.biqu.equipment/products/bigtreetech-ebb-36-42-can-bus-for-connecting-klipper-expansion-device
+https://eshop.eca.ir
