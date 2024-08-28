@@ -1,6 +1,5 @@
-# [切换到中文版](./README_zh_cn.md)
-
-# EBB36 & 42 CAN V1.0
+# Orca 3D Tilikum NEMA17 Canbus Contoller
+ [<br/><img src=./images/Tilikum%20Small%20Size.jpg width="800" /><br/>](./images/Tilikum%20Full%20Size.png)
 ## Hardware
 * MCU: ARM Cortex-M0 STM32F072C8T6 48MHz with CAN bus
 * Stepper Dirver: Onboard TMC2209 in UART mode, UART address: 00, Rsense: 0.11R
