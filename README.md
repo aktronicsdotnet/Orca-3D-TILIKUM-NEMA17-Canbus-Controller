@@ -1,28 +1,25 @@
 # Orca 3D Tilikum NEMA17 Canbus Contoller
- <br/><center>[<img src=./images/Tilikum%20Small%20Size.jpg width="800" />](./images/Tilikum%20Full%20Size.png)</center><br/>
+ <br/><center>[<img src=./images/Tilikum%20Small%20Size.jpg width="600" />](./images/Tilikum%20Full%20Size.png)</center><br/>
 ## Hardware
-* MCU: ARM Cortex-M0 STM32F072C8T6 48MHz with CAN bus
-* Stepper Dirver: Onboard TMC2209 in UART mode, UART address: 00, Rsense: 0.11R
+* MCU: ARM® 32-bit Cortex®-M3 STM32F103RCT6 72MHz with CAN bus
+* Stepper Dirver: Onboard TMC2209 in UART mode, UART address: 00, Rsense: 0.1R
 * Onboard Accelerometer Sensor: ADXL345
-* Onboard Temperature IC: Max31865 Select 2 / 4 lines PT100 / PT1000 by DIP switch (no Max31865 verson have not this feature)
-* Input Voltage: DC12V-DC24V 6A
+* Input Voltage: DC12V-DC24V Maximum 10A
 * Logic Voltage: DC 3.3V
-* Heating Interface: Hotend (E0), maximum output current: 5A
-* Fan Interfaces: two CNC fans (FAN0, FAN1)
+* Heating Interface: Hotend (E0), maximum output current: 6A
+* Fan Interfaces: 2 fully controlled fans (FAN0, FAN1)
 * Maximum Output Current of Fan Interface: 1A, Peak Value 1.5A
-* Expansion Interfaces: EndStop, I2C, Probe, RGB, PT100/PT1000, USB interface, CAN Interface
-* Temperature Sensor Interface Optional: 1 Channel 100K NTC or PT1000(TH0), 1 Channel PT100/PT1000
-* USB Communication Interface: USB-Type-C
-* DC 5V Maximum Output Current: 1A
+* Expansion Interfaces: 3x EndStops, 1x Bed Probe, 1x RGB Neopixel, 2x Fans, 1x NTC Thermistor, 1x USB interface header, 1x USB interface socket, 1x CAN Interface, 1x SWD programming interface
+* Temperature Sensor Interface: 2 Wire NTC Thermistor
+* USB Communication Interface: Micro USB or 3 Wire USB Header
+* DC 5V Maximum Output Current: 2A
 
 ## Firmware
-* Only supports Klipper at the present.
+* Only supports Klipper at the present. Currently Marlin doesn't support multiple MCU controllers...
 
 ## Pinout
-* EBB36 CAN V1.0
-  <br/><img src=EBB%20CAN%20V1.0%20(STM32F072)/EBB36%20CAN%20V1.0/Hardware/EBB36%20CAN%20V1.0-PIN.png width="800" /><br/>
-* EBB42 CAN V1.0
-  <br/><img src=EBB%20CAN%20V1.0%20(STM32F072)/EBB42%20CAN%20V1.0/Hardware/EBB42%20CAN%20V1.0-PIN.png width="800" /><br/>
+* The following pinout is for thier intended common use but mostly can be used for other things inside Klipper for other purposes.
+ <br/><center>[<img src=./images/Tilikum%20Pinout%20Guide%20Small%20Size.jpg width="600" />](./images/Tilikum%20Pinout%20Guide%20Full%20Size.png)</center><br/>
 
 ## Build Firmware Image
 1. Precompiled firmware(The source code version used is [Commits on Nov 20, 2023](https://github.com/Klipper3d/klipper/commit/bb4711c5d31e8159945f945c662e6668059a174f))
