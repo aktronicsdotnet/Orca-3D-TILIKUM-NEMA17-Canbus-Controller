@@ -28,8 +28,8 @@
 
 ## Build Firmware Image
 1. Precompiled firmware(Compiled at 28-08-2024)
-   * [firmware_USB.bin](./EBB%20CAN%20V1.0%20(STM32F072)/firmware_USB.bin) Use USB to communicate with raspberry pi / BTT Pi.
-   * [firmware_canbus.bin](./EBB%20CAN%20V1.0%20(STM32F072)/firmware_canbus.bin) Use CAN bus to communicate with raspberry pi / BTT Pi, baudrate = 1000K.
+   * [klipper.bin](./Bootloader%20and%20Firmware/klipper.bin) Klipper build, should be used to program mcu with proper method according to bootloader. USB Build
+   * [katapult + klipper.bin](./Bootloader%20and%20Firmware/katapult%20+%20klipper.bin) Bootloader + Klipper, should be programmed using a st-link programmer. USB Build
 
 3. Build your own firmware<br/>
    1. Refer to [klipper's official installation](https://www.klipper3d.org/Installation.html) to download klipper source code to raspberry pi
