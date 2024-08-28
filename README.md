@@ -1,6 +1,6 @@
 # Orca 3D Tilikum NEMA17 Canbus Contoller
 <p align="center">
-<a href="./images/Tilikum%20Full%20Size.png" _taget="blank"><img src=./images/Tilikum%20Small%20Size.jpg width="600" /></a>
+<a href="./images/Tilikum%20Full%20Size.png" target="_blank"><img src=./images/Tilikum%20Small%20Size.jpg width="500" /></a>
 </p>
 ## Hardware
 * MCU: ARM® 32-bit Cortex®-M3 STM32F103RCT6 72MHz with CAN bus
@@ -22,11 +22,11 @@
 ## Pinout
 * The following pinout is for thier normally intended common use but mostly can be used for other things inside Klipper for other purposes.
 <p align="center">
-[<img src=./images/Tilikum%20Pinout%20Guide%20Small%20Size.jpg width="600" />](./images/Tilikum%20Pinout%20Guide%20Full%20Size.png)
+<a href="./images/Tilikum%20Pinout%20Guide%20Small%20Size.jpg" target="_blank"><img src=./images/Tilikum%20Pinout%20Guide%20Full%20Size.png width="850" /></a>
 </p>
 
 ## Build Firmware Image
-1. Precompiled firmware(The source code version used is [Commits on Nov 20, 2023](https://github.com/Klipper3d/klipper/commit/bb4711c5d31e8159945f945c662e6668059a174f))
+1. Precompiled firmware(Compiled at 28-08-2024)
    * [firmware_USB.bin](./EBB%20CAN%20V1.0%20(STM32F072)/firmware_USB.bin) Use USB to communicate with raspberry pi / BTT Pi.
    * [firmware_canbus.bin](./EBB%20CAN%20V1.0%20(STM32F072)/firmware_canbus.bin) Use CAN bus to communicate with raspberry pi / BTT Pi, baudrate = 1000K.
 
