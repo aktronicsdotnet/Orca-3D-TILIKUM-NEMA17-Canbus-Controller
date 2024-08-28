@@ -45,7 +45,7 @@
       * IF USE USB
          * Communication interface = `USB (on PA11/PA12)`
       * ElSE IF USE CAN bus
-         * Communication interface = `CAN bus (on PB0/PB1)`
+         * Communication interface = `CAN bus (on PB8/PB9)`
          * `(1000000)` CAN bus speed
 <p align="center">
 <img src=./images/KIAUH%20Firmware%20Guide.jpg width="800" />
@@ -57,7 +57,13 @@
    7. If you are using bootloaders like Katapult or CanBoot, easily update the firmware otherwise use an st-link to update the board.
 
 ## board.cfg files
-   * [sample-bigtreetech-ebb-canbus-v1.0.cfg](./EBB%20CAN%20V1.0%20(STM32F072)/sample-bigtreetech-ebb-canbus-v1.0.cfg) includes all the correct pinout for EBB36 & 42 CAN V1.0
+   * [test-tilikum-controller.cfg](./Config%20Files/test-tilikum-controller.cfg) includes all the correct pinout for Tilikum Canbus Controller.
+      ```
+      Don't forget to change your own serial ID in line 19
+      serial: /dev/serial/by-id/usb-Klipper_stm32f103xe_36FFD7054741343816842043-if00
+      Replace "usb-Klipper_stm32f103xe_36FFD7054741343816842043-if00" with your board ID
+      You can get this ID using KIAUH script menu "4. Advanced" -> "5. Get MCU ID" then use correct port "USB or Canbus"
+      ```
 
 
 
