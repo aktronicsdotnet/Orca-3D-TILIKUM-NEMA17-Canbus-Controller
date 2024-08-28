@@ -65,7 +65,7 @@
       You can get this ID using KIAUH script menu "4. Advanced" -> "5. Get MCU ID" then use correct port "USB or Canbus"
       ```
       
-   * [test-tilikum-controller.cfg](./Config%20Files/test-tilikum-controller.cfg) includes all the correct pinout for Tilikum Canbus Controller.
+   * [orca-3d-springer-and-tilikum-controller-v1.0.cfg](./Config%20Files/orca-3d-springer-and-tilikum-controller-v1.0.cfg) includes all the correct pinout for Tilikum Canbus Controller.
       ```
       Don't forget to change your own serial ID in lines 19 and 24
       Line 19 is related to main controller MCU
