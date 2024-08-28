@@ -2,6 +2,7 @@
 <p align="center">
 <a href="./images/Tilikum%20Full%20Size.png" target="_blank"><img src=./images/Tilikum%20Small%20Size.jpg width="500" /></a>
 </p>
+
 ## Hardware
 * MCU: ARM® 32-bit Cortex®-M3 STM32F103RCT6 72MHz with CAN bus
 * Stepper Dirver: Onboard TMC2209 in UART mode, UART address: 00, Rsense: 0.1R
