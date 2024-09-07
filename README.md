@@ -78,6 +78,12 @@
       Replace "usb-Klipper_stm32f103xe_39FFD70531304D3819621743-if00" with your Tilikum controller board ID from KIAUH
       ```
 
+## ابعاد برد
+در تصویر زیر اندازه و ابعاد برد به همراه جای سوراخ های برد مشخص شده است. طبیعی است باتوجه به اینکه این برد در پشت یک موتور NEMA17 قرار میگیرد، ابعاد مشابهی با این برد دارد و جایگاه سوراخ های این برد نیز برابر با جای پیچ های این موتور است تا بتواند روی آن سوار شود.
+<p align="center">
+<a href="./images/Tilikum%20Dimensions%20Full%20Size.png" target="_blank"><img src=./images/Tilikum%20Dimensions%20Small%20Size.jpg width="500" /></a>
+</p>
+
 # نکته مهم
 ## مشارکت در بهبود و گسترش برد
 * در مجموعه های <a href="https://orca3d.ir" target="_blank">Orca 3D</a> و <a href="https://aktronics.net" target="_blank">AKTronics</a> نظر شما عزیزان برای ما بسیار مهم و مفید است لذا لطفا به هر شکلی که ممکن هست ما را همراهی کنید تا بتوانیم بهترین کیفیت را برای شما به ارمغان بیاوریم.
@@ -165,6 +171,11 @@ https://eshop.eca.ir
       serial: /dev/serial/by-id/usb-Klipper_stm32f103xe_39FFD70531304D3819621743-if00
       Replace "usb-Klipper_stm32f103xe_39FFD70531304D3819621743-if00" with your Tilikum controller board ID from KIAUH
       ```
+## Hardware
+In the picture below  the overall dimentions and whole places for this board has been shown... It's natural that becuase this board need to be mounted on the back of a NEMA17 stepper motor, it has to be the same size and same hole pattern.
+<p align="center">
+<a href="./images/Tilikum%20Dimensions%20Full%20Size.png" target="_blank"><img src=./images/Tilikum%20Dimensions%20Small%20Size.jpg width="500" /></a>
+</p>
 
 # Note
 ## We appreciate your participation
