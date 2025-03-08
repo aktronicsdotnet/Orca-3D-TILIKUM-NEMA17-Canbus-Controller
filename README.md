@@ -28,9 +28,9 @@
 </p>
 
 ## ساخت فریمور مخصوص دستگاه با کلیپر
-1. نسخه از قبل کامپایل شده تاریخ 28-08-2024 را میتوانید از لینک زیر دانلود کنید.
-   * [klipper.bin](./Bootloader%20and%20Firmware/klipper.bin) فریمور کلیپر بدون بوت لودر، قابل نصب از طریق بوت لودر مخصوص برد
-   * [katapult + klipper.bin](./Bootloader%20and%20Firmware/katapult%20+%20klipper.bin) فریمور کلیپر به همراه بوت لودر، قابل نصب از طریق پروگرمر St-link
+1. نسخه از قبل کامپایل شده تاریخ 08-03-2025 را میتوانید از لینک زیر دانلود کنید.
+   * [CANBUS FIRMWARES](./Bootloader%20and%20Firmware/CANBUS) فریمور های برحسب پورت ارتباطی کن باس
+   * [USB FIRMWARES](./Bootloader%20and%20Firmware/USB) فریمور های برحسب پورت ارتباطی USB
 
 2. ساخت فریمور توسط خود شما به صورت زیر انجام میشود:<br/>
    1. Refer to [klipper's official installation](https://www.klipper3d.org/Installation.html) to download klipper source code to raspberry pi
@@ -122,9 +122,9 @@ https://eshop.eca.ir
 </p>
 
 ## Build Firmware Image
-1. Precompiled firmware(Compiled at 28-08-2024)
-   * [klipper.bin](./Bootloader%20and%20Firmware/klipper.bin) Klipper build, should be used to program mcu with proper method according to bootloader. USB Build
-   * [katapult + klipper.bin](./Bootloader%20and%20Firmware/katapult%20+%20klipper.bin) Bootloader + Klipper, should be programmed using a st-link programmer. USB Build
+1. Precompiled firmware(Compiled at 09-03-2025)
+   * [CANBUS FIRMWARES: For when you use Tilikum using CANBUS interface](./Bootloader%20and%20Firmware/CANBUS)
+   * [USB FIRMWARES: For when you use Tilikum using USB interface](./Bootloader%20and%20Firmware/USB)
 
 2. Build your own firmware<br/>
    1. Refer to [klipper's official installation](https://www.klipper3d.org/Installation.html) to download klipper source code to raspberry pi
